@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/teal_700"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tview"
+        android:textSize="25sp"
+        android:gravity="center">
+
+    </TextView>
+    <Space
+        android:layout_width="30dp"
+        android:layout_height="30dp">
+    </Space>
+
+    <EditText
+        android:id="@+id/bview"
+        android:hint="Enter your name"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_marginTop="10sp"
+        android:src="@drawable/img"
+        android:layout_width="400dp"
+        android:layout_height="400dp">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/surprisebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suprise me"
+        android:onClick="surpriseClick">
+
+    </Button>
+
+</LinearLayout>
